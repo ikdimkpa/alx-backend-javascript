@@ -5,7 +5,5 @@ export default function initializeRooms() {
 	const class2 = new ClassRoom(20);
 	const class3 = new ClassRoom(34);
 
-	const total = [class1, class2, class3];
-
-	return total;
+	return [class1, class2, class3];
 }
